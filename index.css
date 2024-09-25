@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: aliceblue;
+}
+
+
+.short{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    /* gap: 30px; */
+    list-style: none;
+    width: 100%;
+    height: 10vh;
+    /* padding-left: 5vw; */
+    /* padding-right: 5vw; */
+    background-color: rgb(7, 36, 0);
+}
+.short img{
+    width: 40px;
+    height: 40px;
+}
+
+.headerSection{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*GYDUYGDUYDUY*/
+.listLink{
+    display: flex;
+    flex-direction: row;
+}
+.listLink ol{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    list-style: none;
+}
+/* bUTTONS */
+.listLink ol li button{
+    width: 150px;
+    font-weight: bolder;
+    border-radius: 2px;
+    border: none;
+    color: black;
+    background-color: white;
+    height: 40px;
+}
+.listLink ol li button:hover{
+    transform: scale(1.07);
+    -webkit-text-fill-color: green;
+    background-color: rgb(241, 241, 241);
+}
+.listLink ol li button a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.home{
+    width: 100%;
+    /* background-color: white; */
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-image: url("./img/123(2).png");
+}
+.hText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hText h1{
+    color: black;
+    font-size: 14vmin;
+    letter-spacing: -7px;
+}
+.about{
+    margin-bottom: 10vh;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+.about img{
+    width: 30%;
+    height: inherit;
+}
+.about div{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(197, 248, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    /* gap: 5%; */
+}
+.about div h1{
+    font-size: 10vmin;
+}
+.about div p{
+    font-size: 3vmin;
+}
+.about div *{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    padding-right: -20px;
+}
+.contact{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+.contact div{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(197, 248, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    /* gap: 5%; */
+}
+.contact div *{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    padding-right: -20px;
+}
+.contact div h1{
+    font-size: 10vmin;
+}
+.contact img{
+    width: 30%;
+    height: inherit;
+}
