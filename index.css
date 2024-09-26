@@ -85,8 +85,13 @@ body{
     align-items: center;
     gap: 10px;
     justify-content: center;
-    background-image: url("./img/123(2).png");
+    background-image: url("/QmCastLandingPage/img/fullscreen.png");
 }
+.home::backdrop{
+    filter: blur(10px);
+    filter: brightness(10px);
+}
+
 .hText{
     display: flex;
     flex-direction: column;
